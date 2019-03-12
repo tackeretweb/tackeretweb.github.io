@@ -1,0 +1,36 @@
+img {
+	image:url(hand.jpg);
+    width:20%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-repeat:no-repeat;
+	background-size: contain; 
+	
+	
+}
+
+img {
+	image:url(hand.jpg);
+    width:20%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:right;
+    background-repeat:no-repeat;
+	background-size: contain; 
+	
+	
+}
+
+
+img {
+	image:url(hand.jpg);
+    width:20%;        
+    margin-left:auto;
+    margin-right:auto;
+    background-position:center;
+    background-repeat:no-repeat;
+	background-size: contain; 
+	
+	
+}
