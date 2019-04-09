@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Nivo Slider</title>
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	
+</head>
+<body>
+	<div id="wrap">
+<header>
+</header>
+
+<nav>
+</nav>
+
+<section>
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/mountain.jpg" data-thumb="images/mountain.jpg" alt="" />
+                <img src="image/snow.jpg" data-thumb="images/snow.jpg" alt="" title="This is an example of a caption" />
+                <img src="images/moon.jpg" data-thumb="images/moon.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/cliff.jpg" data-thumb="images/cliff.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+		
+</section>
+
+<footer>
+</footer>
+
+	</div> <!--close div wrap-->
+	
+	</div>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+	
+</body>
+</html>
