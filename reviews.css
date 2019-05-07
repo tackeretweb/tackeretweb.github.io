@@ -1,0 +1,223 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+
+
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 67px;
+	bottom: 400;  
+}
+nav a {
+	color: black;
+	font-size:18px;
+	text-decoration:none;
+	position: relative; 
+	
+	font-family: Unna Bold;
+}
+nav a:hover {
+	color: white;
+}
+
+.color-box1 {
+	float:left; 
+	background-color:#f2f2f2;  
+	padding:5.5%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 900px; 
+	bottom: 170; 
+	
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* column */
+.columns {
+  position: absolute;
+  width: 33.3%;
+  padding: 8px;
+  bottom: -300;
+  right: 60; 
+}
+
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+.button {
+  background-color: #5C8CFE;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+.bear {
+	position: absolute; 
+	right: 700; 
+	bottom: -460; 
+}
+
+
+.camera {
+	position: absolute; 
+	right: 700; 
+	bottom: -990; 
+}
+
+.hands {
+	position: absolute; 
+	right: 700; 
+	bottom: -1520; 
+}
+
+.image3 {
+	position: absolute; 
+	left: 700; 
+	bottom: -710; 
+}
+
+.new {
+	position: absolute; 
+	left: 700; 
+	bottom: -1114; 
+}
+
+.image1 {
+	position: absolute; 
+	left: 700; 
+	bottom: -1520; 
+}
+/* footer container */ 
+
+.color-box9 {
+	float:left; 
+	background-color:black;  
+	padding:6%;
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: white;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 2000px; 
+	bottom: -1750; 
+}
+
+.logofooter {
+	right: 510; 
+	position: absolute; 
+	bottom: -1750; 
+}
+
+.color-box10 {
+	right: 50; 
+	position: absolute; 
+	bottom: -1680; 
+	color: white; 
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+	color: white;
+    text-transform: none;
+    font-weight: normal;
+}
+
+
+/* footer container */ 
+
+.color-box {
+	float:left; 
+	background-color:#9096A3;  
+	padding:0%;
+	position: absolute; 
+	width: 1800px;
+	height: 300px; 
+	border: 0; 
+	color: white; 
+	right: .8; 
+	
+}
+
+header{
+display:flex;
+height:100px;
+padding:20px 50px 10px 75px;
+align-items:flex-end;
+font-family:Arial;
+}
+
+.logo{
+	left: 410; 
+	position: absolute; 
+	bottom: 400; 
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

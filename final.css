@@ -1,0 +1,375 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+
+/* Navigation container */
+
+}
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 55px;
+	bottom: 400;  
+}
+nav a {
+	color: white;
+	font-size:18px;
+	text-decoration:none;
+
+	font-family: Unna Bold;
+}
+nav a:hover {
+	color: white;
+}
+
+
+/* Navigation container */
+
+/* Slideshow container */
+
+
+.logo {
+	width: 600px; 
+	height: 600px; 
+	margin: 0 auto; 
+	position: absolute; 
+	left: 30%;  
+	background: url(logocss.png); 
+	background-clip: content-box;
+	z-index: 1000;
+	padding-top: 200px; 
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	
+}	
+
+img {
+	margin:auto; 
+	max-width: 100%; 
+	height: 600; 
+	
+}
+.slideshow-container {
+  max-width: 10000px;
+  position: relative;
+
+  margin: auto;
+
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #9096A3;
+  position: static; 
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.3s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* Slideshow container */
+
+
+
+/* Body Container */
+
+body {
+  overflow-x: hidden;
+  background-color: #9096A3; 
+}
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+	/* Hello my name is */
+.color-box {
+	float:left; 
+	background-color:#f2f2f2;  
+	padding:5.5%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 650px; 
+	bottom: -180; 
+}
+
+	/* Artist Statement */
+.color-box2 {
+	 
+	background-color:#f2f2f2;  
+	padding:5%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	bottom: -350px;
+	 position: absolute;
+	 right: -130; 
+	 width: 700px; 
+}
+	/* artist statement para */
+.color-box3 {
+	float:right; 
+	background-color: #f2f2f2;  
+	padding:1%;
+	font-family: Unna Bold;
+    font-size: 1rem;
+    word-spacing: 0em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	right: -18; 
+	width: 590px; 
+	height: -589px; 
+	position: absolute;
+	bottom: -760px; 
+}
+	/* portrait */ 
+.lake {
+	position: absolute; 
+	bottom: -548; 
+}
+.color-box4 {
+  position: absolute;
+  bottom: -660px;
+  left: 10;
+  width: 600px;
+  height: 100px;
+ 
+}
+
+.cheer {
+	position: absolute; 
+	right: 600; 
+	bottom: -760; 
+	
+}
+
+/* bio */
+.color-box5 {
+	float:left; 
+	background-color:#f2f2f2;  
+	padding:5.5%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 1100px; 
+	bottom: -980; 
+	
+}
+
+.tire {
+	position: absolute; 
+	right: 950; 
+	bottom: -1500; 
+	
+}
+
+/* bio para */
+.color-box6 {
+	float:right; 
+	background-color: #f2f2f2;  
+	padding:1%;
+	font-family: Unna Bold;
+    font-size: 1rem;
+    word-spacing: 0em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	right: 10; 
+	width: 600px; 
+	height: -589px; 
+	position: absolute;
+	bottom: -1170px; 
+}
+
+.color-box14 {
+	right: 10;  
+	background-color: #f2f2f2;  
+	padding:1%;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+    font-size: 1.5rem;
+    word-spacing: .2em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	right: 10; 
+	width: 300px; 
+	height: 300px; 
+	position: absolute;
+	bottom: -1500px; 
+}
+.stand {
+	position: absolute; 
+	right: 680; 
+	bottom: -1320; 
+	
+}
+
+.feet {
+	position: absolute; 
+	right: 690; 
+	bottom: -1500; 
+	
+	
+}
+
+
+.color-box8 {
+	float:left; 
+	background-color:black;  
+	padding:1%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 1500px; 
+	bottom: -1790; 
+}
+
+/* Body Container */
+
+/* footer container */ 
+
+.color-box9 {
+	float:left; 
+	background-color:black;  
+	padding:6%;
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: white;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 2000px; 
+	bottom: -1790; 
+}
+
+.logofooter {
+	right: 450; 
+	position: absolute; 
+	bottom: -1790; 
+}
+
+.color-box10 {
+	right: 50; 
+	position: absolute; 
+	bottom: -1725; 
+	color: white; 
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+	color: white;
+    text-transform: none;
+    font-weight: normal;
+}
+
+/* footer container */ 
+
+
+
+
+
+
+

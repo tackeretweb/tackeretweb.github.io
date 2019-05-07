@@ -1,0 +1,166 @@
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+
+
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 67px;
+	bottom: 400;  
+}
+nav a {
+	color: black;
+	font-size:18px;
+	text-decoration:none;
+	position: relative; 
+	
+	font-family: Unna Bold;
+}
+nav a:hover {
+	color: white;
+}
+/* footer container */ 
+
+.color-box9 {
+	float:left; 
+	background-color:black;  
+	padding:6%;
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: white;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 2000px; 
+	bottom: -1990; 
+}
+
+.logofooter {
+	right: 500; 
+	position: absolute; 
+	bottom: -1990; 
+}
+
+.color-box10 {
+	right: 50; 
+	position: absolute; 
+	bottom: -1925; 
+	color: white; 
+	font-family: Unna Bold;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+	color: white;
+    text-transform: none;
+    font-weight: normal;
+}
+
+/* footer container */ 
+
+.color-box {
+	float:left; 
+	background-color:#9096A3;  
+	padding:0%;
+	position: absolute; 
+	width: 1800px;
+	height: 300px; 
+	border: 0; 
+	color: white; 
+	right: .8; 
+	
+}
+
+.color-box1 {
+	float:left; 
+	background-color:#f2f2f2;  
+	padding:5.5%;
+	font-family: Unna Bold;
+    font-size: 2rem;
+    letter-spacing: 0.1em;
+    word-spacing: 0em;
+    line-height: 0.52em;
+    color: black;
+    text-transform: none;
+    font-weight: normal;
+	position: absolute; 
+	width: 900px; 
+	bottom: 170; 
+	
+}
+.orange {
+	position: absolute; 
+	right: 530; 
+	bottom: -650; 
+}
+
+.music {
+	position: absolute; 
+	left: 830; 
+	bottom: -330; 
+}
+
+.ellie {
+	position: absolute; 
+	left: 830; 
+	bottom: -1130; 
+}
+
+.bus {
+	position: absolute; 
+	right: 910; 
+	bottom: -1180; 
+}
+
+.petal {
+	position: absolute; 
+	right: 535; 
+	bottom: -1180; 
+}
+
+.red {
+	position: absolute; 
+	right: 488; 
+	bottom: -1770; 
+}
+
+.machine {
+	position: absolute; 
+	right: 48; 
+	bottom: -1770; 
+}
+
+header{
+display:flex;
+height:100px;
+padding:20px 50px 10px 75px;
+align-items:flex-end;
+font-family:Arial;
+}
+
+.logo{
+	left: 410; 
+	position: absolute; 
+	bottom: 400; 
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
